@@ -20,7 +20,7 @@ The dataset used in this project contains daily historical Amazon stock prices f
 ## 📈 Forecast Comparison
 
 The plot below compares multiple forecasting models on Amazon stock price data:
-
+[Forecast Comparison](/Forecast_Comparison.png)
 - **Training_Data**: Actual values used for training
 - **Actual_Data**: Ground truth for test period
 - **ARIMA (0,1,0)**: Basic differencing-only ARIMA model
@@ -29,4 +29,3 @@ The plot below compares multiple forecasting models on Amazon stock price data:
 - **SARIMAX (0,1,0)(0,1,2,30)**: Seasonal ARIMA + exogenous features
 - **Prophet**: Forecast from base Prophet model (no regressors)
 - **Prophet + Exog**: Forecast using Prophet with `Volume` and `Open` as regressors
-[Forecast Comparison](/Forecast_Comparison.png)
