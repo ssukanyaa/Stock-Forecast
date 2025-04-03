@@ -14,7 +14,4 @@ Multiple forecasting strategies were explored — from baseline Prophet models t
 
 ## 📁 Dataset
 
-The dataset used in this project contains daily historical Amazon stock prices (From Nov 2021 to Nov 2024), including:
-- Date
-- Open, High, Low, Close, Adj_Close
-- Volume
+The dataset used in this project contains daily historical Amazon stock prices from Nov 2021 to Nov 2024.
