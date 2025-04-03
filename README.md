@@ -8,7 +8,7 @@ Multiple forecasting strategies were explored — from baseline Prophet models t
 - 📅 Forecasts for future **business days** (30–60 days)
 - 📊 **Prophet with and without exogenous variables** (`Volume`, `Open`)
 - 🔁 **Recursive forecasting** using Prophet to estimate future regressors
-- 🇺🇸 Integrated **US holiday calendar**
+- Integrated **US holiday calendar**
 - 🧪 Evaluated against ARIMA, SARIMA, and SARIMAX for comparison
 - 📉 RMSE & MAE error metrics, clear visualizations
 
