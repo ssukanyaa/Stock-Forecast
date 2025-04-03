@@ -15,3 +15,18 @@ Multiple forecasting strategies were explored — from baseline Prophet models t
 ## 📁 Dataset
 
 The dataset used in this project contains daily historical Amazon stock prices from Nov 2021 to Nov 2024.
+[Dataset Used](Stock-Forecast/AMZN_Historical_data.xlsx)
+
+## 📈 Forecast Comparison
+
+The plot below compares multiple forecasting models on Amazon stock price data:
+
+- **Training_Data**: Actual values used for training
+- **Actual_Data**: Ground truth for test period
+- **ARIMA (0,1,0)**: Basic differencing-only ARIMA model
+- **ARIMA (1,1,1)**: Autoregressive + Moving Average
+- **SARIMA (0,1,2)(1,1,2,30)**: Seasonal ARIMA with monthly seasonality
+- **SARIMAX (0,1,0)(0,1,2,30)**: Seasonal ARIMA + exogenous features
+- **Prophet**: Forecast from base Prophet model (no regressors)
+- **Prophet + Exog**: Forecast using Prophet with `Volume` and `Open` as regressors
+[Forecast Comparison](Stock-Forecast/Forecast_Comparison.png)
