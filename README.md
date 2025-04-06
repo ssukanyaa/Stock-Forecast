@@ -1,7 +1,6 @@
 # 📈 Amazon Stock Price Forecasting with Prophet
 
-This project uses **Facebook Prophet** to forecast **Amazon stock prices** with a combination of trend, seasonality, and **exogenous regressors** like `Volume` and `Open`.  
-Multiple forecasting strategies were explored — from baseline Prophet models to hybrid pipelines using Prophet to forecast regressors themselves.
+This project uses **Facebook Prophet** to forecast **Amazon stock prices** with a combination of trend, seasonality, and **exogenous regressors** like `Volume` and `Open`.
 
 ## 🚀 Project Highlights
 
